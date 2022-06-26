@@ -9,12 +9,6 @@ export default function Header() {
         
         <AppBar position='static' color="primary" >
             <Toolbar>
-                {/* <IconButton
-                    size="large"
-                    edge="start"
-                    sx={{ mr: 2 }}>
-                    <Menu/>
-                </IconButton> */}
                 <Typography sx={{ flexGrow: 1 }}>Coding Log</Typography>
                 <IconButton>
                     <AccountCircle/>
