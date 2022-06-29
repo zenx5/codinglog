@@ -9,15 +9,12 @@ import Body from './components/Body.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
-
-
-
   return (
     <ThemeProvider theme={theme}>
       <Container maxWidth="false">
         <Header/>
         <Body/>
-        <Footer/>
+        <Footer/> 
       </Container>
     </ThemeProvider>
   );
