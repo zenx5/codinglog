@@ -7,7 +7,7 @@ import {theme} from './styles/theme'
 import Header from './components/Header.jsx'
 import Body from './components/Body.jsx'
 import Footer from './components/Footer.jsx'
-
+import Login from './components/Login.jsx'
 export default function App() {
 
 
@@ -17,6 +17,7 @@ export default function App() {
       <Container maxWidth="false">
         <Header/>
         <Body/>
+        <Login/>
         <Footer/>
       </Container>
     </ThemeProvider>
