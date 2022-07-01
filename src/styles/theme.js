@@ -117,6 +117,21 @@ export const theme = createTheme({
                     }
                 }
             ]
+        },
+        MuiTabs:{
+            variants:[
+                {
+                    props:{
+                        variant:'menu-multiple'
+                    },
+                    style:{
+                        width:'100%',
+                        button:{
+                            padding:0
+                        }
+                    }
+                }
+            ]
         }
 
         ,

@@ -9,16 +9,12 @@ import Body from './components/Body.jsx'
 import Footer from './components/Footer.jsx'
 import Login from './components/Login.jsx'
 export default function App() {
-
-
-
   return (
     <ThemeProvider theme={theme}>
       <Container maxWidth="false">
-        <Header/>
-        <Body/>
-        <Login/>
-        <Footer/>
+        <Header></Header>
+        <Body></Body>
+        <Footer></Footer>
       </Container>
     </ThemeProvider>
   );
