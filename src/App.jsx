@@ -7,6 +7,7 @@ import {theme} from './styles/theme'
 import Header from './components/Header.jsx'
 import Body from './components/Body.jsx'
 import Footer from './components/Footer.jsx'
+import Register from './components/Register.jsx'
 import Login from './components/Login.jsx'
 export default function App() {
   return (
